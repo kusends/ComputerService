@@ -1,0 +1,141 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 400" width="210" height="400">
+  <defs>
+    <linearGradient id="mr-blue" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#60a5fa" />
+    </linearGradient>
+    <linearGradient id="mr-orange" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+    <linearGradient id="mr-cyan" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="mr-dark" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0f3460" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(210, 0) scale(-1, 1)">
+    <!-- ================= LEVEL 1: OUTER EDGE (x: 0 - 45px) — Opacity 55% ================= -->
+    <g opacity="0.55" stroke-width="0.38" stroke-linejoin="round" stroke-linecap="round">
+      <polygon points="0,0 28,15 0,40" fill="url(#mr-dark)" fill-opacity="0.35" stroke="#0f3460" stroke-opacity="0.6" />
+      <polygon points="0,0 15,8 0,20" fill="url(#mr-orange)" fill-opacity="0.45" stroke="#f59e0b" stroke-opacity="0.7" />
+      <polygon points="28,15 0,40 24,52" fill="url(#mr-cyan)" fill-opacity="0.32" stroke="#0ea5e9" stroke-opacity="0.55" />
+      <polygon points="0,40 24,52 0,75" fill="url(#mr-blue)" fill-opacity="0.35" stroke="#2563eb" stroke-opacity="0.6" />
+      <polygon points="0,40 12,46 0,60" fill="url(#mr-cyan)" fill-opacity="0.35" stroke="#0ea5e9" stroke-opacity="0.55" />
+      <polygon points="24,52 0,75 18,95" fill="url(#mr-dark)" fill-opacity="0.32" stroke="#0f3460" stroke-opacity="0.5" />
+      <polygon points="0,75 18,95 0,120" fill="url(#mr-orange)" fill-opacity="0.45" stroke="#f59e0b" stroke-opacity="0.7" />
+
+      <polygon points="0,120 26,135 0,160" fill="url(#mr-blue)" fill-opacity="0.35" stroke="#2563eb" stroke-opacity="0.6" />
+      <polygon points="26,135 0,160 22,180" fill="url(#mr-cyan)" fill-opacity="0.32" stroke="#0ea5e9" stroke-opacity="0.55" />
+      <polygon points="0,160 22,180 0,210" fill="url(#mr-orange)" fill-opacity="0.45" stroke="#f59e0b" stroke-opacity="0.7" />
+      <polygon points="0,145 12,152 0,160" fill="url(#mr-dark)" fill-opacity="0.35" stroke="#0f3460" stroke-opacity="0.55" />
+
+      <polygon points="0,210 30,225 0,255" fill="url(#mr-blue)" fill-opacity="0.35" stroke="#2563eb" stroke-opacity="0.6" />
+      <polygon points="30,225 0,255 25,275" fill="url(#mr-cyan)" fill-opacity="0.32" stroke="#0ea5e9" stroke-opacity="0.55" />
+      <polygon points="0,255 25,275 0,305" fill="url(#mr-orange)" fill-opacity="0.45" stroke="#f59e0b" stroke-opacity="0.7" />
+      <polygon points="0,240 14,248 0,255" fill="url(#mr-cyan)" fill-opacity="0.35" stroke="#0ea5e9" stroke-opacity="0.55" />
+
+      <polygon points="0,305 28,320 0,348" fill="url(#mr-orange)" fill-opacity="0.45" stroke="#f59e0b" stroke-opacity="0.7" />
+      <polygon points="28,320 0,348 22,368" fill="url(#mr-blue)" fill-opacity="0.35" stroke="#2563eb" stroke-opacity="0.6" />
+      <polygon points="0,348 22,368 0,400" fill="url(#mr-cyan)" fill-opacity="0.32" stroke="#0ea5e9" stroke-opacity="0.55" />
+      <polygon points="0,330 12,338 0,348" fill="url(#mr-dark)" fill-opacity="0.35" stroke="#0f3460" stroke-opacity="0.55" />
+    </g>
+
+    <!-- ================= LEVEL 2: MID-RIGHT (x: 25 - 85px) — Opacity 40% ================= -->
+    <g opacity="0.40" stroke-width="0.32" stroke-linejoin="round">
+      <polygon points="28,15 55,25 42,48" fill="url(#mr-blue)" fill-opacity="0.28" stroke="#2563eb" stroke-opacity="0.45" />
+      <polygon points="28,15 42,48 24,52" fill="url(#mr-orange)" fill-opacity="0.32" stroke="#f59e0b" stroke-opacity="0.5" />
+      <polygon points="42,48 68,55 52,75" fill="url(#mr-cyan)" fill-opacity="0.25" stroke="#0ea5e9" stroke-opacity="0.4" />
+      <polygon points="42,48 52,75 24,52" fill="url(#mr-dark)" fill-opacity="0.22" stroke="#0f3460" stroke-opacity="0.35" />
+      <polygon points="24,52 52,75 38,90" fill="url(#mr-blue)" fill-opacity="0.26" stroke="#2563eb" stroke-opacity="0.4" />
+      <polygon points="24,52 38,90 18,95" fill="url(#mr-orange)" fill-opacity="0.3" stroke="#f59e0b" stroke-opacity="0.45" />
+
+      <polygon points="38,90 65,102 48,122" fill="url(#mr-orange)" fill-opacity="0.3" stroke="#f59e0b" stroke-opacity="0.45" />
+      <polygon points="18,95 38,90 26,135" fill="url(#mr-blue)" fill-opacity="0.24" stroke="#2563eb" stroke-opacity="0.35" />
+      <polygon points="26,135 48,122 56,152" fill="url(#mr-cyan)" fill-opacity="0.25" stroke="#0ea5e9" stroke-opacity="0.4" />
+      <polygon points="26,135 56,152 22,180" fill="url(#mr-dark)" fill-opacity="0.2" stroke="#0f3460" stroke-opacity="0.3" />
+      <polygon points="56,152 75,165 58,188" fill="url(#mr-blue)" fill-opacity="0.26" stroke="#2563eb" stroke-opacity="0.4" />
+      <polygon points="56,152 58,188 22,180" fill="url(#mr-orange)" fill-opacity="0.3" stroke="#f59e0b" stroke-opacity="0.45" />
+
+      <polygon points="22,180 58,188 40,210" fill="url(#mr-cyan)" fill-opacity="0.24" stroke="#0ea5e9" stroke-opacity="0.35" />
+      <polygon points="22,180 40,210 30,225" fill="url(#mr-blue)" fill-opacity="0.22" stroke="#2563eb" stroke-opacity="0.32" />
+      <polygon points="30,225 68,235 50,258" fill="url(#mr-blue)" fill-opacity="0.26" stroke="#2563eb" stroke-opacity="0.4" />
+      <polygon points="30,225 50,258 25,275" fill="url(#mr-orange)" fill-opacity="0.3" stroke="#f59e0b" stroke-opacity="0.45" />
+      <polygon points="25,275 50,258 64,288" fill="url(#mr-dark)" fill-opacity="0.2" stroke="#0f3460" stroke-opacity="0.3" />
+      <polygon points="25,275 64,288 44,308" fill="url(#mr-cyan)" fill-opacity="0.25" stroke="#0ea5e9" stroke-opacity="0.4" />
+
+      <polygon points="44,308 70,322 52,345" fill="url(#mr-blue)" fill-opacity="0.24" stroke="#2563eb" stroke-opacity="0.35" />
+      <polygon points="25,275 44,308 28,320" fill="url(#mr-cyan)" fill-opacity="0.22" stroke="#0ea5e9" stroke-opacity="0.32" />
+      <polygon points="28,320 52,345 36,365" fill="url(#mr-orange)" fill-opacity="0.3" stroke="#f59e0b" stroke-opacity="0.45" />
+      <polygon points="28,320 36,365 22,368" fill="url(#mr-blue)" fill-opacity="0.22" stroke="#2563eb" stroke-opacity="0.32" />
+    </g>
+
+    <!-- ================= LEVEL 3: TRANSITION (x: 65 - 135px) — Opacity 20% ================= -->
+    <g opacity="0.20" stroke-width="0.28" stroke-linejoin="round">
+      <polygon points="55,25 88,32 72,50" fill="url(#mr-blue)" fill-opacity="0.2" stroke="#2563eb" stroke-opacity="0.32" />
+      <polygon points="88,32 115,38 98,56" fill="url(#mr-cyan)" fill-opacity="0.16" stroke="#0ea5e9" stroke-opacity="0.28" />
+      <polygon points="68,55 96,65 82,82" fill="url(#mr-cyan)" fill-opacity="0.18" stroke="#0ea5e9" stroke-opacity="0.28" />
+      <polygon points="96,65 120,72 106,90" fill="url(#mr-orange)" fill-opacity="0.2" stroke="#f59e0b" stroke-opacity="0.3" />
+
+      <polygon points="65,102 94,112 80,130" fill="url(#mr-orange)" fill-opacity="0.22" stroke="#f59e0b" stroke-opacity="0.32" />
+      <polygon points="94,112 122,118 108,136" fill="url(#mr-blue)" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.28" />
+
+      <polygon points="75,165 104,174 90,192" fill="url(#mr-blue)" fill-opacity="0.2" stroke="#2563eb" stroke-opacity="0.3" />
+      <polygon points="104,174 128,180 116,198" fill="url(#mr-orange)" fill-opacity="0.18" stroke="#f59e0b" stroke-opacity="0.28" />
+
+      <polygon points="68,235 98,245 84,264" fill="url(#mr-cyan)" fill-opacity="0.18" stroke="#0ea5e9" stroke-opacity="0.28" />
+      <polygon points="98,245 124,252 110,270" fill="url(#mr-blue)" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.25" />
+
+      <polygon points="64,288 92,298 78,316" fill="url(#mr-blue)" fill-opacity="0.18" stroke="#2563eb" stroke-opacity="0.28" />
+      <polygon points="92,298 118,304 104,320" fill="url(#mr-cyan)" fill-opacity="0.16" stroke="#0ea5e9" stroke-opacity="0.25" />
+
+      <polygon points="70,322 96,332 84,348" fill="url(#mr-orange)" fill-opacity="0.2" stroke="#f59e0b" stroke-opacity="0.28" />
+      <polygon points="96,332 122,338 110,354" fill="url(#mr-blue)" fill-opacity="0.16" stroke="#2563eb" stroke-opacity="0.25" />
+    </g>
+
+    <!-- ================= LEVEL 4: MICRO-SHARDS (x: 120 - 175px) — Opacity 10% ================= -->
+    <g opacity="0.10" stroke-width="0.22" stroke-linejoin="round">
+      <polygon points="115,38 140,44 130,55" fill="url(#mr-blue)" stroke="#2563eb" stroke-opacity="0.22" />
+      <polygon points="140,44 162,48 152,58" fill="url(#mr-cyan)" stroke="#0ea5e9" stroke-opacity="0.18" />
+      <polygon points="120,72 142,78 134,88" fill="url(#mr-orange)" stroke="#f59e0b" stroke-opacity="0.22" />
+      <polygon points="142,78 164,82 156,92" fill="url(#mr-blue)" stroke="#2563eb" stroke-opacity="0.18" />
+
+      <polygon points="122,118 145,124 136,134" fill="url(#mr-orange)" stroke="#f59e0b" stroke-opacity="0.22" />
+      <polygon points="145,124 166,128 158,138" fill="url(#mr-cyan)" stroke="#0ea5e9" stroke-opacity="0.18" />
+
+      <polygon points="128,180 150,185 142,195" fill="url(#mr-blue)" stroke="#2563eb" stroke-opacity="0.22" />
+      <polygon points="150,185 170,188 162,198" fill="url(#mr-orange)" stroke="#f59e0b" stroke-opacity="0.18" />
+
+      <polygon points="124,252 146,256 138,266" fill="url(#mr-cyan)" stroke="#0ea5e9" stroke-opacity="0.18" />
+      <polygon points="146,256 166,260 158,270" fill="url(#mr-blue)" stroke="#2563eb" stroke-opacity="0.16" />
+
+      <polygon points="118,304 140,308 132,318" fill="url(#mr-blue)" stroke="#2563eb" stroke-opacity="0.18" />
+      <polygon points="140,308 160,312 152,322" fill="url(#mr-cyan)" stroke="#0ea5e9" stroke-opacity="0.16" />
+
+      <polygon points="122,338 144,342 136,352" fill="url(#mr-orange)" stroke="#f59e0b" stroke-opacity="0.2" />
+      <polygon points="144,342 164,346 156,356" fill="url(#mr-blue)" stroke="#2563eb" stroke-opacity="0.16" />
+    </g>
+
+    <!-- ================= LEVEL 5: FAINT PARTICLES (x: 165 - 210px) — Opacity 3% ================= -->
+    <g opacity="0.03">
+      <circle cx="170" cy="52" r="0.9" fill="#2563eb" />
+      <circle cx="192" cy="60" r="0.6" fill="#f59e0b" />
+      <circle cx="172" cy="90" r="0.8" fill="#0ea5e9" />
+      <circle cx="195" cy="98" r="0.5" fill="#2563eb" />
+      <circle cx="174" cy="136" r="0.9" fill="#f59e0b" />
+      <circle cx="196" cy="144" r="0.6" fill="#0ea5e9" />
+      <circle cx="176" cy="196" r="0.8" fill="#2563eb" />
+      <circle cx="198" cy="204" r="0.5" fill="#f59e0b" />
+      <circle cx="172" cy="268" r="0.9" fill="#0ea5e9" />
+      <circle cx="194" cy="276" r="0.6" fill="#2563eb" />
+      <circle cx="170" cy="320" r="0.8" fill="#2563eb" />
+      <circle cx="192" cy="328" r="0.5" fill="#f59e0b" />
+      <circle cx="174" cy="354" r="0.9" fill="#f59e0b" />
+      <circle cx="196" cy="360" r="0.6" fill="#0ea5e9" />
+    </g>
+  </g>
+</svg>

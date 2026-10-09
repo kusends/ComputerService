@@ -153,7 +153,7 @@ footer { background: var(--blue-dark); color: #94a3b8; padding: 16px 0; }
   .hero-image-wrap img { object-fit: cover; max-height: 280px; width: 100%; }
 }
 @media (max-width: 640px) {
-  body { background-size: 60px auto, 60px auto; }
+  body { background-image: none; }
   .header-inner { height: 58px; gap: 12px; }
   .logo-text { font-size: .9rem; }
   .header-left .logo { border-right: none; padding-right: 0; margin-right: 0; }

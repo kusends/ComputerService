@@ -10,3 +10,20 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
   });
 });
 
+
+// ===== MOBILE MENU TOGGLE =====
+const mobileBtn = document.querySelector('.mobile-menu-btn');
+const mobileNav = document.getElementById('mobile-nav');
+const mobileLinks = document.querySelectorAll('.mob-link');
+
+if (mobileBtn && mobileNav) {
+  mobileBtn.addEventListener('click', () => {
+    mobileNav.classList.toggle('active');
+  });
+
+  mobileLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      mobileNav.classList.remove('active');
+    });
+  });
+}

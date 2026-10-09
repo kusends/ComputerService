@@ -156,8 +156,8 @@ footer { background: var(--blue-dark); color: #94a3b8; padding: 16px 0; }
   body { background-size: 60px auto, 60px auto; }
   .header-inner { height: 58px; gap: 12px; }
   .logo-text { font-size: .9rem; }
-  .header-phone { font-size: .85rem; }
-  .header-phone small, nav { display: none; }
+  .header-left .logo { border-right: none; padding-right: 0; margin-right: 0; }
+  .header-phone, nav { display: none; }
   #hero { padding: 36px 0 40px; }
   .hero-bottom-grid { grid-template-columns: 1fr; gap: 24px; }
   .hero-features { margin-top: 0; }

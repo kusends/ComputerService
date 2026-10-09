@@ -1,7 +1,8 @@
 /* ===== RESET & BASE ===== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; font-size: 16px; }
+html { scroll-behavior: smooth; font-size: 16px; overflow-x: hidden; }
 body {
+  overflow-x: hidden;
   font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
   color: #1e293b;
   background-color: #ffffff;
@@ -156,15 +157,18 @@ footer { background: var(--blue-dark); color: #94a3b8; padding: 16px 0; }
   .header-inner { height: 58px; gap: 12px; }
   .logo-text { font-size: .9rem; }
   .header-phone { font-size: .85rem; }
-  nav a { padding: 6px 10px; font-size: .82rem; }
+  .header-phone small, nav { display: none; }
   #hero { padding: 36px 0 40px; }
   .hero-bottom-grid { grid-template-columns: 1fr; gap: 24px; }
+  .hero-features { margin-top: 0; }
   .hero-phone-box { width: 100%; justify-content: center; }
   .btn-orange { width: 100%; justify-content: center; }
   .footer-inner { flex-direction: column; align-items: flex-start; }
   .container { padding: 0 16px; }
+  .services-table thead th:last-child, .services-table td:last-child { width: auto; text-align: right; }
+  .services-table thead th, .services-table td { padding: 12px 10px; }
 }
 @media (max-width: 420px) {
-  .services-table thead th:last-child, .services-table td:last-child { width: auto; padding-right: 12px; }
+  .services-table thead th:first-child, .services-table td:first-child { min-width: 150px; }
 }
 
